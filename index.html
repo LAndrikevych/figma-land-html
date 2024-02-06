@@ -25,11 +25,13 @@
           </ul>
         </nav>
         <div class="header__logo">
-          <img
-            src="./img/logos_figma-land.svg"
-            alt="Figma Land Logo"
-            class="header__logo-img"
-          />
+          <a href="#">
+            <img
+              src="./img/logos_figma-land.svg"
+              alt="Figma Land Logo"
+              class="header__logo-img"
+            />
+          </a>
         </div>
         <div class="header__social-logo">
           <a href="#"
@@ -108,7 +110,15 @@
           </div>
         </div>
         <div>
-          <img src="./img/video_bg.png" alt="Video" />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Cx2dkpBxst8?si=lfOwY0RI4Ix6zPEF"
+            title="YouTube video player"
+            style="border: 0;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
 
@@ -127,6 +137,7 @@
               src="./img/laptop.svg"
               alt="Laptop website content"
               class="features__image"
+              width="560"
             />
           </div>
         </div>
@@ -139,13 +150,14 @@
               src="./img/img_newsletter.svg"
               alt="Newsletter art"
               class="newsletter__image"
+              width="560"
             />
           </div>
           <div class="newsletter__text-container">
             <h3 class="newsletter__title">At your fingertips</h3>
             <p class="newsletter__subtitle">Lightning fast prototyping</p>
             <form action="#" method="post" class="newsletter__form">
-              <fieldset>
+              <fieldset style="width: 560px">
                 <h3 class="newsletter__form-title">
                   Subscribe to our Newsletter
                 </h3>
@@ -289,9 +301,9 @@
                 </p>
               </div>
               <div class="pricing__option-price">
-                <h2 class="pricing__option-amount">0</h2>
-                <h3 class="pricing__option-currency">$</h3>
-                <h6 class="pricing__option-period">Per Month</h6>
+                <p class="pricing__option-amount">0</p>
+                <span class="pricing__option-currency">$</span>
+                <p class="pricing__option-period">Per Month</p>
               </div>
               <ul class="pricing__feature-list">
                 <li class="pricing__feature">Pricing Feature</li>
@@ -305,15 +317,15 @@
 
             <article class="pricing__option">
               <div class="pricing__option-details">
-                <h3 class="pricing__option-name">FREE</h3>
+                <h3 class="pricing__option-name">STANDART</h3>
                 <p class="pricing__option-description">
                   Organize across all apps by hand
                 </p>
               </div>
               <div class="pricing__option-price">
-                <h2 class="pricing__option-amount">0</h2>
-                <h3 class="pricing__option-currency">$</h3>
-                <h6 class="pricing__option-period">Per Month</h6>
+                <p class="pricing__option-amount">10</p>
+                <span class="pricing__option-currency">$</span>
+                <p class="pricing__option-period">Per Month</p>
               </div>
               <ul class="pricing__feature-list">
                 <li class="pricing__feature">Pricing Feature</li>
@@ -327,15 +339,15 @@
 
             <article class="pricing__option">
               <div class="pricing__option-details">
-                <h3 class="pricing__option-name">FREE</h3>
+                <h3 class="pricing__option-name">BUSINESS</h3>
                 <p class="pricing__option-description">
                   Organize across all apps by hand
                 </p>
               </div>
               <div class="pricing__option-price">
-                <h2 class="pricing__option-amount">0</h2>
-                <h3 class="pricing__option-currency">$</h3>
-                <h6 class="pricing__option-period">Per Month</h6>
+                <p class="pricing__option-amount">99</p>
+                <span class="pricing__option-currency">$</span>
+                <p class="pricing__option-period">Per Month</p>
               </div>
               <ul class="pricing__feature-list">
                 <li class="pricing__feature">Pricing Feature</li>
@@ -358,7 +370,7 @@
         </p>
         <div class="contact__form-container">
           <form class="contact__form" action="#" method="post">
-            <fieldset class="contact__fieldset">
+            <fieldset class="contact__fieldset" style="width: 560px">
               <h3 class="contact__form-title">Contact Us</h3>
               <input
                 type="text"
